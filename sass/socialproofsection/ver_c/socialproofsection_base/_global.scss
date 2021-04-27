@@ -22,3 +22,9 @@ h1 {
 .lead {
   font-size: var(--fs-500);
 }
+
+main {
+  @media (min-width: 50em) {
+    display: grid;
+  }
+}
