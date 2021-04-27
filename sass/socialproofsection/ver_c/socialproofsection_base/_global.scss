@@ -26,5 +26,18 @@ h1 {
 main {
   @media (min-width: 50em) {
     display: grid;
+    grid-template-columns: 1fr 1fr;
   }
+}
+
+.intro {
+  grid-column: 1 / 2;
+}
+
+.ratings {
+  grid-column: 2 / 3;
+}
+
+.quotes {
+  grid-column: 1 / -1;
 }
