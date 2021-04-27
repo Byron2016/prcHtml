@@ -3,7 +3,7 @@ body {
   font-size: var(--fs-400);
   padding-top: 5rem;
   text-align: center;
-  background-color: yellow;
+  background-color: limegreen;
 }
 
 h1 {
@@ -20,5 +20,28 @@ h1 {
 }
 
 .lead {
-  font-size: var(--fs-900);
+  font-size: var(--fs-500);
+}
+
+// layout stuff
+
+main {
+  @media (min-width: 50em) {
+    display: grid;
+    gap: 3rem;
+    grid-template-columns: 1fr 1fr;
+    text-align: left;
+  }
+}
+
+.intro {
+  grid-column: 1 / 2;
+}
+
+.ratings {
+  grid-column: 2 / 3;
+}
+
+.quotes {
+  grid-column: 1 / -1;
 }
