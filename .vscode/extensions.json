@@ -1,0 +1,50 @@
+{
+  // See https://go.microsoft.com/fwlink/?LinkId=827846 to learn about workspace recommendations.
+  // Extension identifier format: ${publisher}.${name}. Example: vscode.csharp
+  // List of extensions which should be recommended for users of this workspace.
+  "recommendations": [
+    "ryannaddy.laravel-artisan",
+    "onecentlin.laravel-blade",
+    "austenc.laravel-blade-spacer",
+    "codingyu.laravel-goto-view",
+    "onecentlin.laravel5-snippets",
+    "amiralizadeh9480.laravel-extra-intellisense",
+    "ritwickdey.live-sass", // HTml
+    "michelemelluso.code-beautifier",
+    "felixfbecker.php-intellisense",
+    "afmicc.getterandsettergenerator",
+    "coenraads.bracket-pair-colorizer", //1 customizable extension for colorizing matching brackets
+    "ysemeniuk.emmet-live",
+    "knisterpeter.vscode-github",
+    "xabikos.javascriptsnippets",
+    "emmanuelbeziat.vscode-great-icons",
+    //https://www.youtube.com/watch?v=sAppoByZap4
+    "formulahendry.auto-close-tag",
+    "mgmcdermott.vscode-language-babel",
+    "johnpapa.vscode-cloak",
+    "mikestead.dotenv",
+    "github.vscode-pull-request-github",
+    "eamodio.gitlens",
+    "vincaslt.highlight-matching-tag",
+    "wix.vscode-import-cost",
+    "oderwat.indent-rainbow",
+    "pkief.material-icon-theme",
+    "spywhere.now-playing",
+    "eg2.vscode-npm-script",
+    "trabpukcip.vscode-npm-scripts",
+    "whizkydee.material-palenight-theme",
+    "shan.code-settings-sync",
+    "shardulm94.trailing-spaces", //1 Highlight trailing spaces and delete them in a flash!
+    "wakatime.vscode-wakatime",
+    //Vue & las mejores extensiones para Visual Studio Code. Vue Español.
+    //https://www.youtube.com/watch?v=VHqdbXAOiGg
+    "octref.vetur",
+    "dariofuzinato.vue-peek",
+    "sdras.vue-vscode-snippets",
+    //https://www.youtube.com/watch?v=1kNwZbRiVcQ
+    "ritwickdey.liveserver", // HTml
+    "oderwat.indent-rainbow",
+  ],
+  // List of extensions recommended by VS Code that should not be recommended for users of this workspace.
+  "unwantedRecommendations": []
+}

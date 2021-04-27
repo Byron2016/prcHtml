@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grafico Plotly</title>
+
+  <!-- CDN ploty -->
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+
+<body>
+  <div id="chart"></div>
+
+  <script>
+    Plotly.d3.csv('mt_bruno_elevation.csv', function (err, rows) {
+      console.log(rows);
+      var data = [];
+      for (let i = 0; i < rows.length; i++) {
+        let a = 0;
+        let b = 0;
+        let j = i;
+        let z = rows.length;
+        //a = row;
+        //b = row[i];
+
+        data.push(rows.map(row => row[i]));
+
+        Plotly.newPlot('chart', [{
+          z: data,
+          type: 'surface'
+        }]);
+      }
+      console.log(data);
+    })
+    function getData() {
+      var arr = [];
+      for (let i = 0; i < 10; i++) {
+        arr.push(Array(10).fill().map(() => Math.random()));
+      }
+      return arr;
+    }
+    // console.log(getData());
+    // Plotly.newPlot('chart', [{
+    //   z: getData(),
+    //   type: 'surface'
+    // }]);
+  </script>
+
+</body>
+
+
+</html>

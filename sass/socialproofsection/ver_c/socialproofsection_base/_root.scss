@@ -1,0 +1,28 @@
+:root {
+  // Primary
+  --clr-primary-700: hsl(300, 43%, 22%); //!Very Dark Magenta
+  --clr-primary-300: hsl(333, 80%, 67%); //!Soft Pink
+  // Neutral
+  --clr-neutral-100: hsl(303, 10%, 53%); //!Dark Grayish Magenta: 
+  --clr-neutral-200: hsl(300, 24%, 96%); //!Light Grayish Magenta: 
+  --clr-neutral-300: hsl(0, 0%, 100%);   //!White: 
+
+  //Typography
+  //Font
+  --ff-primary: 'spartan, sans-serif';
+  --fs-400: .8125rem; //13 dividido para 16
+  --fs-500: .9625rem;
+  --fs-900: 2rem; //uso figma para ver tamaño letra. para mobile first (10000+al...) 32 dividido para 16
+
+  --br: .5rem;
+
+  @media (min-width: 50em) {
+    --fs-900: 3rem;
+    /*
+    body {
+      background-color: rgb(165, 245, 119);
+    }
+    */
+  }
+
+}
